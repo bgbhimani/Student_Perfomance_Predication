@@ -2,6 +2,8 @@
 
 Simple Streamlit app that implements Multiple Linear Regression (closed-form) and a batch Gradient Descent regressor on a student performance dataset.
 
+[Live Demo](https://student-perfomance-predication.streamlit.app/)
+
 ## Files
 - [app.py](app.py) — Streamlit app and model implementations (includes [`MLR`](app.py), [`GDRegressor`](app.py), [`stream_data`](app.py), scaler instance [`scaler`](app.py), and sklearn model `lr` in [app.py](app.py))
 - [Multiple_Linear_Regression.ipynb](Multiple_Linear_Regression.ipynb) — Notebook with exploratory analysis and experiments
