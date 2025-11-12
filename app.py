@@ -96,13 +96,8 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 Description = "Description: Implements Multiple Linear Regression from scratch (closed-form normal equation) and a batch Gradient Descent regressor. The code preprocesses data (maps binary 'Extracurricular Activities' to 0/1 and standard-scales continuous features), fits custom models alongside scikit-learn's LinearRegression, and evaluates performance with R², MAE, and MSE."
-def stream_data():
-    for word in Description.split(" "):
-        yield word + " "
-        time.sleep(0.02)
-
 st.title("Student Performance Prediction")
-st.write_stream(stream_data) 
+st.write(Description)
 
 
 non_binary_cols = ['Hours Studied', 'Previous Scores', 'Sleep Hours', 'Sample Question Papers Practiced']
