@@ -98,7 +98,7 @@ st.set_page_config(
 Description = "Description: Implements Multiple Linear Regression from scratch (closed-form normal equation) and a batch Gradient Descent regressor. The code preprocesses data (maps binary 'Extracurricular Activities' to 0/1 and standard-scales continuous features), fits custom models alongside scikit-learn's LinearRegression, and evaluates performance with R², MAE, and MSE."
 st.title("Student Performance Prediction")
 st.write(Description)
-
+st.badge("Model gets trained. Please wait...", color="yellow")
 
 non_binary_cols = ['Hours Studied', 'Previous Scores', 'Sleep Hours', 'Sample Question Papers Practiced']
 binary_cols = ['Extracurricular Activities']
